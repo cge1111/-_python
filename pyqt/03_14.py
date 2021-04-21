@@ -3,8 +3,8 @@ import sys
 from PyQt5.QtWidgets import *
 
 class MyWindow(QMainWindow):
-    def __init__(slef):
-        super().__init__()
+    def __init__(self):
+        super().__init__()   # 'self.부모클래스_메서드()' 
 
 
 app = QApplication(sys.argv)  
